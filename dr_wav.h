@@ -184,7 +184,7 @@ typedef drwav_uint32         drwav_bool32;
 #define DRWAV_TRUE           1
 #define DRWAV_FALSE          0
 
-#if !defined(static)
+#if !defined(DRWAV_DLL)
     #if defined(DRWAV_DLL)
         #if defined(_WIN32)
             #define DRWAV_DLL_IMPORT  __declspec(dllimport)
